@@ -60,4 +60,28 @@ ref.once('value', (snapshot) => {
   console.log(snapshot.val());
 });
 /* this will listen only one time*/
+Required packages for Hedera Token Service:
+
+dotenv: npm install dotenv
+hashgraph/SDK: npm install --save hashgraph/SDK
+
+Hosting initiating:
+
+1. npm install firebase
+
+2. Create firebase.json
+
+3. Paste CDN data to firebase.js
+
+4. firebase init hosting
+
+5. Select "create from an existing project"
+
+6. Y N N
+
+7. npm run build 
+
+8. serve -s build
+
+9.  firebase deploy
 ```
